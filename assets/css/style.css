@@ -26,7 +26,6 @@ h1, h2, h3 {
 header {
     position: fixed;
     background-color: #6fd9cc;
-    box-shadow: 0 2px 2px 0 silver;
     width: 100vw;
     box-shadow: inset 0 -10px 20px 16px #099089, 0 2px 2px 0 #181717;
 }
@@ -47,9 +46,7 @@ nav ul li {
     text-decoration: underline;
 }
 
-.nav-bar-top {
-    list-style: none;
-}
+
 
 #logo {
     text-align: center;
@@ -63,4 +60,45 @@ nav ul li {
 
 #nav-bar-top {
     text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 90%;
+    padding-bottom: 5px;
+}
+
+/* Media query: Tablets (768px and up) */
+@media screen and (min-width: 768px) {
+
+    /* Header */
+    header {
+        display: inline-flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        box-shadow: inset 0px 2px 20px 16px #099089, 0 2px 2px 0 #181717;
+    }
+
+    #logo h1 {
+        padding: 10px 20px;
+        font-size: 250%;
+    }
+
+    #nav-bar-top {
+        font-size: 120%;
+        padding-right: 20px;
+        padding-top: 10px;
+    }
+}
+
+/* Media query: Tablets (1024px and up) */
+@media screen and (min-width: 1024px) {
+
+    /* Header */
+    #logo h1 {
+        font-size: 350%;
+    }
+
+    #nav-bar-top {
+        font-size: 160%;
+    }
 }
