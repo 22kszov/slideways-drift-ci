@@ -66,6 +66,11 @@ nav ul li {
     padding-bottom: 5px;
 }
 
+/* Main content */
+main {
+    margin-top: 75.5px;
+}
+
 /* Media query: Tablets (768px and up) */
 @media screen and (min-width: 768px) {
 
@@ -88,6 +93,11 @@ nav ul li {
         padding-right: 20px;
         padding-top: 10px;
     }
+
+    /* Main content */
+    main {
+        margin-top: 68.5px;
+    }
 }
 
 /* Media query: Tablets (1024px and up) */
@@ -100,5 +110,14 @@ nav ul li {
 
     #nav-bar-top {
         font-size: 160%;
+    }
+
+    #nav-bar-top a:hover {
+        text-decoration: underline;
+    }
+
+    /* Main content */
+    main {
+        margin-top: 88px;
     }
 }
