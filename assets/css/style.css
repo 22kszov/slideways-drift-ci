@@ -74,7 +74,25 @@ main {
 /* Footer */
 footer {
     background-color: #6fd9cc;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    align-items: center;
+    box-shadow: inset 0px 0px 20px 11px #099089, 0px -2px 2px 0 #181717;
 }
+
+footer a {
+    color: #000000;
+    font-size: x-large;
+}
+
+#newsletter {
+    text-decoration: none;
+    font-size: 90%;
+    line-height: 500%;
+}
+
 /* Media query: Tablets (768px and up) */
 @media screen and (min-width: 768px) {
 
@@ -102,6 +120,9 @@ footer {
     main {
         margin-top: 68.5px;
     }
+
+    /* Footer */
+    
 }
 
 /* Media query: Tablets (1024px and up) */
