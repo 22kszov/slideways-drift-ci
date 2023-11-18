@@ -25,9 +25,9 @@ h1, h2, h3 {
 /* Header */
 header {
     position: fixed;
-    background-color: #6fd9cc;
+    background-color: #be0101;
     width: 100vw;
-    box-shadow: inset 0 -10px 20px 16px #099089, 0 2px 2px 0 #181717;
+    box-shadow: inset 0 -10px 20px 16px #6e0000, 0 2px 2px 0 #565656
 }
 
 ul a {
@@ -67,19 +67,19 @@ nav ul li {
 /* Main content */
 main {
     margin-top: 75.5px;
-    background-color: #fffdd0;
+    background-color: #1a1a1a;
     height: 100vh;
 }
 
 /* Footer */
 footer {
-    background-color: #6fd9cc;
+    background-color: #be0101;
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
     justify-content: space-evenly;
     align-items: center;
-    box-shadow: inset 0px 0px 20px 11px #099089, 0px -2px 2px 0 #181717;
+    box-shadow: inset 0px 0px 20px 11px #6e0000, 0px -2px 2px 0 #565656;
 }
 
 footer a {
@@ -102,7 +102,7 @@ footer a {
         flex-direction: row;
         justify-content: space-between;
         align-items: center;
-        box-shadow: inset 0px 2px 20px 16px #099089, 0 2px 2px 0 #181717;
+        box-shadow: inset 0px 2px 20px 16px #6e0000, 0 2px 2px 0 #565656;
     }
 
     #logo h1 {
@@ -122,7 +122,14 @@ footer a {
     }
 
     /* Footer */
-    
+    footer a {
+        font-size: xx-large;
+    }
+
+    #newsletter {
+        font-size: 130%;
+        line-height: 350%;
+    }
 }
 
 /* Media query: Tablets (1024px and up) */
@@ -144,5 +151,19 @@ footer a {
     /* Main content */
     main {
         margin-top: 88px;
+    }
+
+    /* Footer */
+    footer a {
+        font-size: xxx-large;
+    }
+    
+    #newsletter {
+        font-size: 210%;
+        line-height: 300%;
+    }
+
+    #newsletter:hover {
+        text-decoration: underline;
     }
 }
