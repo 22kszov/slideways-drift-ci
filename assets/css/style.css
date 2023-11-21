@@ -72,6 +72,32 @@ main {
     color: #fff;
 }
 
+#art-1 h2 {
+    text-align: center;
+    padding: 10px 0 5px 0;
+    font-size: 22px;
+}
+
+#art-1 img {
+    height: 20vh;
+    width: 90%;
+    object-fit: cover;
+    display: block;
+    margin: 0 auto;
+    border: 2px solid #be0101;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+#art-1 p {
+    padding: 5px 0 5px 0;
+    text-align: left;
+    width: 90%;
+    display: block;
+    margin: 0 auto;
+    font-size: 17.5px;
+}
+
 /* Footer */
 footer {
     background-color: #be0101;
