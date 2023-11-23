@@ -148,6 +148,18 @@ footer a {
         margin-top: 68.5px;
     }
 
+    #art-1 img {
+        height: 45vh;
+    }
+
+    #art-1 h2 {
+        font-size: 35px;
+    }
+
+    #art-1 p {
+        font-size: 21px;
+    }
+
     /* Footer */
     footer a {
         font-size: xx-large;
@@ -159,7 +171,7 @@ footer a {
     }
 }
 
-/* Media query: Tablets (1024px and up) */
+/* Media query: Laptops (1024px and up) */
 @media screen and (min-width: 1024px) {
 
     /* Header */
@@ -184,6 +196,14 @@ footer a {
         margin-top: 88px;
     }
 
+    #art-1 img {
+        height: 300px;
+    }
+
+    #art-1 h2 {
+        font-size: 300%;
+    }
+
     /* Footer */
     footer a {
         font-size: xxx-large;
@@ -196,5 +216,14 @@ footer a {
 
     #newsletter-btn:hover {
         text-decoration: underline;
+    }
+}
+
+/* Media query: Laptops (1440px and up) */
+@media screen and (min-width: 1440px) {
+
+    /* Main */
+    #art-1 img {
+        height: 450px;
     }
 }
