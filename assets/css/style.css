@@ -70,6 +70,8 @@ main {
     background-color: #1a1a1a;
     height: 100vh;
     color: #fff;
+    overflow-x: hidden;
+    overflow-y: auto;
 }
 
 #art-1 h2 {
@@ -96,6 +98,11 @@ main {
     display: block;
     margin: 0 auto;
     font-size: 17.5px;
+}
+
+#car-350 > img {
+    height: 200px;
+    width: 200px;
 }
 
 /* Footer */
