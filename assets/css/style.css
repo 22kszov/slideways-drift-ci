@@ -100,10 +100,33 @@ main {
     font-size: 17.5px;
 }
 
-#car-350 > img {
-    height: 200px;
-    width: 200px;
+#art-2 {
+    text-align: center;
+    width: 90%;
+    margin: 0 auto;
 }
+
+#art-2 h2 {
+    font-size: 22px;
+    padding: 10px 0 5px;
+}
+
+#art-2 div p {
+    text-align: left;
+    font-size: 17.5px;
+    padding: 5px 0;
+}
+
+#art-2 div img {
+    width: 90%;
+    height: 20vh;
+    object-fit: cover;
+    display: block;
+    margin: 0 auto;
+    border: 2px solid #be0101;
+    border-radius: 8px;
+    margin-bottom: 20px;
+ }
 
 /* Footer */
 footer {
