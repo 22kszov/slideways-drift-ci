@@ -313,10 +313,14 @@ footer a {
         font-size: 300%;
     }
 
-    /* Mods pagen */
+    /* Mods page */
 
     #art-3 div h2 {
         font-size: 300%;
+    }
+
+    #intro div br {
+        display: none;
     }
 
     /* Footer */
