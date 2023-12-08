@@ -112,13 +112,13 @@ main {
 
 #art-2 h2 {
     font-size: 22px;
-    padding: 10px 0 5px;
+    padding: 10px 0 10px;
 }
 
 #art-2 div p {
     text-align: left;
     font-size: 17.5px;
-    padding: 5px 0;
+    padding: 10px 0;
 }
 
 #art-2 div img {
@@ -126,17 +126,48 @@ main {
     height: 20vh;
     object-fit: cover;
     display: block;
-    margin: 0 auto;
     border: 2px solid #be0101;
     border-radius: 8px;
     margin-bottom: 20px;
+    margin-top: 10px;
  }
 
-#breaker {
+.breaker {
     height: 5vh;
 } 
 
 /* Mods page */
+
+#art-3 {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+
+#art-3 h2 {
+    font-size: 22px;
+    padding: 10px 0 5px;
+    text-align: center;
+}
+
+#art-3 div {
+    width: 90%;
+    margin: 0 auto;
+}
+
+#art-3 p {
+    text-align: left;
+    font-size: 17.5px;
+    padding: 5px 0;
+}
+
+#art-3 div img {
+    width: 100%;
+    height: auto;
+    border: 2px solid #be0101;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
 
 /* Footer */
 footer {
@@ -216,6 +247,16 @@ footer a {
       font-size: 21px;
    }
 
+   /* Mods page */
+
+   #art-3 h2 {
+       font-size: 35px;
+   }
+
+   #art-3 p {
+       font-size: 21px;
+   }
+
     /* Footer */
     footer a {
         font-size: xx-large;
@@ -272,6 +313,12 @@ footer a {
         font-size: 300%;
     }
 
+    /* Mods pagen */
+
+    #art-3 div h2 {
+        font-size: 300%;
+    }
+
     /* Footer */
     footer a {
         font-size: xxx-large;
@@ -289,8 +336,6 @@ footer a {
 
 /* Media query: Laptops (1440px and up) */
 @media screen and (min-width: 1440px) {
-
-    /* Main */
 
     /* Index page */
 
