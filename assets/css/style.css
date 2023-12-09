@@ -169,6 +169,53 @@ main {
     margin-bottom: 20px;
 }
 
+/* Newsletter */
+
+#art-4 {
+    background-image: url("../images/hero-newsletter.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+#art-4 > div {
+    width: 80%;
+    margin-top: 10vh;
+    margin-left: auto;
+    margin-right: auto;
+    height: 60vh;
+}
+
+#art-4  form {
+    background-color: hsla(355, 100%, 52%, 0.6);
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: stretch;
+}
+
+fieldset {
+    border: 0;
+}
+
+label, input, fieldset {
+    padding: 5px;
+}
+
+button {
+    font-size: 200%;
+    background-color: black;
+    color: white;
+    border: 2px solid white;
+}
+
+button:hover {
+    background-color: rgb(255, 255, 255);
+    color: black;
+    border: 2px solid black;
+}
 /* Footer */
 footer {
     background-color: #be0101;
