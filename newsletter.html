@@ -51,26 +51,27 @@
                     Sign Up To Our Newsletter!
                 </h2>
 
-                <label for="#first_name">First Name</label>
+                <label for="first_name">First Name</label>
                 <input name="first_name" id="first_name" type="text" required>
 
-                <label for="#email_address">Email Address</label>
+                <label for="email_address">Email Address</label>
                 <input name="email_address" id="email_address" type="email" required>
 
-                <label for="#car_type">What car do you drive?</label>
+                <label for="car_type">What car do you drive?</label>
                 <input name="car_type" id="car_type" type="text" required>
 
                 <label for="age">How old are you?</label>
                 <select name="age" id="age" required>
+                    <option value="">select..</option>
                     <option value="16-18">16-18</option>
-                    <option value="16-18">19-25</option>
-                    <option value="16-18">26-35</option>
-                    <option value="16-18">36-45</option>
-                    <option value="16-18">46-55</option>
-                    <option value="16-18">56+</option>
+                    <option value="19-25">19-25</option>
+                    <option value="26-35">26-35</option>
+                    <option value="36-45">36-45</option>
+                    <option value="46-55">46-55</option>
+                    <option value="56+">56+</option>
                 </select>
 
-                <fieldset required>
+                <fieldset>
                     <legend>Do you drift?</legend>
                     <label for="drift-yes">Yes</label>
                     <input name="do_you_drift" id="drift-yes" type="radio" value="yes">
