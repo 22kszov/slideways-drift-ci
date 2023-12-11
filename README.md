@@ -120,6 +120,21 @@ To finish up I made sure my website was fully responsive and all my elements dis
 
 ---
 
+## **Validation**
+
+---
+
+* HTML validated using <https://validator.w3.org/>
+  * No mistakes were found
+* CSS validated using <https://jigsaw.w3.org/css-validator/>
+  * No mistakes were found
+* Contrast validated using <https://webaim.org/>
+  * Normal text validated at WCAG AA standard
+  * Large text validated at WCAG AAA standard
+  * Graphical Objects and User Interface Components validated at WCAG AA standard
+
+---
+
 ## **Bugs**
 
 ---
@@ -128,3 +143,38 @@ To finish up I made sure my website was fully responsive and all my elements dis
 
 * Broken file paths to images on deployed site
   * Fixed by changing absolute file paths to relative
+
+---
+
+## **Deployment**
+
+---
+
+The website was deployed by pushing to Github and using the pages feature and can be viewed at <https://22kszov.github.io/slideways-drift-ci/index.html>
+
+* Deployment instructions
+  * Navigate to the repository
+  * Select 'Actions' from the side navigation menu
+  * Select the most recent 'pages build and deployment' option
+  * From the workflow tree click the link under the 'deploy' heading
+
+---
+
+## **Credits**
+
+---
+
+* Favicon generated with favicon.io
+* All images sourced from pexels.com
+* All images compressed using image.compressor.com
+* All fonts sourced from fonts.google.com
+* Icons sourced from fontawesome.com
+* Color palette created using coolors.co
+
+---
+
+## **Contact**
+
+---
+
+For any queries and information you can contact me at my email address 22kszov@gmail.com
