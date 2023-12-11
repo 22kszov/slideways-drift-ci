@@ -108,15 +108,15 @@ Slideways is an online blog that aims to to introduce car enthusiasts to the bas
 
 ---
 
-I began testing after deploying the website. From here I made sure all my images loaded and fixed a couple broken file paths.
+I began testing after deploying the website. From here I made sure all my images loaded and fixed a couple broken file paths
 
-I then proceeded to test my internal links to make sure they didn't open externally.
+I then proceeded to test my internal links to make sure they didn't open externally
 
-From here I did the same with my external links and made sure they opened a new tab.
+From here I did the same with my external links and made sure they opened a new tab
 
-After this I made sure my form was working correctly and required sections were mandatory.
+After this I made sure my form was working correctly and required sections were mandatory
 
-To finish up I made sure my website was fully responsive and all my elements displayed as I intended them to.
+To finish up I made sure my website was fully responsive and all my elements displayed as I intended them to on all device sizes
 
 ---
 
@@ -132,6 +132,10 @@ To finish up I made sure my website was fully responsive and all my elements dis
   * Normal text validated at WCAG AA standard
   * Large text validated at WCAG AAA standard
   * Graphical Objects and User Interface Components validated at WCAG AA standard
+* Page performance validated using <https://pagespeed.web.dev/>
+  * Results were as follows
+
+![Page performance reults](assets/images/performance.png)
 
 ---
 
@@ -170,6 +174,7 @@ The website was deployed by pushing to Github and using the pages feature and ca
 * All fonts sourced from fonts.google.com
 * Icons sourced from fontawesome.com
 * Color palette created using coolors.co
+* Markdown Table of Contents generated using the Auto Markdown TOC extension
 
 ---
 
