@@ -25,7 +25,7 @@ h1, h2, h3 {
 /* Header */
 header {
     position: fixed;
-    background-color: #be0101;
+    background-color: #EC090C;
     width: 100vw;
     box-shadow: inset 0 -10px 20px 16px #910f0f, 0 2px 2px 0 #565656
 }
@@ -88,7 +88,7 @@ main {
     object-fit: cover;
     display: block;
     margin: 0 auto;
-    border: 2px solid #be0101;
+    border: 2px solid #EC090C;
     border-radius: 8px;
     margin-bottom: 10px;
 }
@@ -126,7 +126,7 @@ main {
     height: 20vh;
     object-fit: cover;
     display: block;
-    border: 2px solid #be0101;
+    border: 2px solid #EC090C;
     border-radius: 8px;
     margin-bottom: 20px;
     margin-top: 10px;
@@ -164,7 +164,7 @@ main {
 #art-3 div img {
     width: 100%;
     height: auto;
-    border: 2px solid #be0101;
+    border: 2px solid #EC090C;
     border-radius: 8px;
     margin-bottom: 20px;
 }
@@ -219,7 +219,7 @@ button:hover {
 
 /* Footer */
 footer {
-    background-color: #be0101;
+    background-color: #EC090C;
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
