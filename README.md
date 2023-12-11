@@ -83,7 +83,7 @@ Slideways is an online blog that aims to to introduce car enthusiasts to the bas
 ![Color pallete used for blog](assets/images/color-palette.jpg)
 
 * Primary Color
-  *  CMYK Red (#EC090C)
+  * CMYK Red (#EC090C)
   * I used this red to symbolise the danger and thrill of drifting
 
 * Secondary Color
@@ -102,3 +102,29 @@ Slideways is an online blog that aims to to introduce car enthusiasts to the bas
 
 ![A snippet from website footer](assets/images/footer.jpg)
 
+---
+
+## **Testing**
+
+---
+
+I began testing after deploying the website. From here I made sure all my images loaded and fixed a couple broken file paths.
+
+I then proceeded to test my internal links to make sure they didn't open externally.
+
+From here I did the same with my external links and made sure they opened a new tab.
+
+After this I made sure my form was working correctly and required sections were mandatory.
+
+To finish up I made sure my website was fully responsive and all my elements displayed as I intended them to.
+
+---
+
+## **Bugs**
+
+---
+
+### **Discovered Bugs**
+
+* Broken file paths to images on deployed site
+  * Fixed by changing absolute file paths to relative
