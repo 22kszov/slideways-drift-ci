@@ -1,10 +1,12 @@
-![Snippet from Slideways home-page](assets/images/homepage.jpg)
-
 # SLIDEWAYS
+
+![Snippet from Slideways home-page](assets/images/homepage.jpg)
 
 ## **Project Description**
 
 Slideways is an online blog that aims to to introduce car enthusiasts to the basics of buying and modifying a drift car on a budget. The blog helps you find your car and tells you what to look out for. It also goes through beginner modifications and track safety.
+
+---
 
 ## **Features**
 
@@ -63,4 +65,40 @@ Slideways is an online blog that aims to to introduce car enthusiasts to the bas
   * Error page for 'page cannot be found'
 
 ![Snippet from 404 page](assets/images/404.jpg)
+
+---
+
+## **Design**
+
+---
+
+### **Fonts**
+
+* I used google fonts to import 2 fonts. These were *Montserrat* which I used for headings and *roboto* which I used for main body content. These fonts were used to compliment the blogs simplistic design.
+
+### **Colors**
+
+* I used <https://coolors.co/> to create my color palette.
+
+![Color pallete used for blog](assets/images/color-palette.jpg)
+
+* Primary Color
+  *  CMYK Red (#EC090C)
+  * I used this red to symbolise the danger and thrill of drifting
+
+* Secondary Color
+  * Davy's Grey (#545454)
+  * Davy's Grey is a lighter grey with a very subtle hint of green. I used this cool color as a secondary to contrast the warmer primary
+
+* Primary Accent Color
+  * Black (#000000)
+
+* Secondary Accent Color
+  * White (#FFFFFF)
+
+### **Icons**
+
+* I used icons from fontawesome for the social media links in the footer to give the website a more modern look
+
+![A snippet from website footer](assets/images/footer.jpg)
 
